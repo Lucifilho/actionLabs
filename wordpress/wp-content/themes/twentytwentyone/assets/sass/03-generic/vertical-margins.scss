@@ -8,7 +8,7 @@
  */
 
 /**
- * Top Level Wrappers (header, main, footer)
+ * Top Level Wrappers (components, main, footer)
  * - Set vertical padding and horizontal margins
  */
 .site-header,
@@ -127,7 +127,7 @@
  * Block & non-gutenberg content wrapper children
  * - Sets spacing-unit margins
  */
-//.site-header > *, // Removed, to align site title and menu.
+//.site-components > *, // Removed, to align site title and menu.
 .entry-header > *,
 .post-thumbnail > *,
 .page-content > *,

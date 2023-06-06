@@ -2,7 +2,7 @@
 
 /**
  * SETTINGS
- * File-header..........The file header for the themes style.css file.
+ * File-components..........The file components for the themes style.css file.
  * Fonts................Any font files, if the project needs specific fonts.
  * Global...............Project-specific, globally available variables.
  *
@@ -99,7 +99,7 @@
 /* Category 05 is all about adjusting the default block styles to the given layout. I only added three blocks as examples. */
 @import "05-blocks/blocks";
 
-/* Category 06 contains all "bigger" components which contain elements of the previous two categories like header, footer, page template, single template, comments section, archives, ... */
+/* Category 06 contains all "bigger" components which contain elements of the previous two categories like components, footer, page template, single template, comments section, archives, ... */
 @import "06-components/header";
 @import "06-components/footer";
 @import "06-components/single";

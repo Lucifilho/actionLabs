@@ -253,7 +253,7 @@ msgid "Explore Openverse media right from the Editor"
 msgstr "Explore o Openverse direto do editor"
 
 #: wp-admin/about.php:180
-msgid "Discover a new collection of header and footer patterns to choose from. Use them with any block theme as a quick, high-quality starting point for your site&#8217;s templates."
+msgid "Discover a new collection of components and footer patterns to choose from. Use them with any block theme as a quick, high-quality starting point for your site&#8217;s templates."
 msgstr "Descubra uma nova coleção de padrões de cabeçalho e rodapé para escolher. Use com qualquer tema de bloco como um ponto de partida rápido e de alta qualidade para os modelos do se site."
 
 #: wp-admin/about.php:179
@@ -362,7 +362,7 @@ msgid "With a block theme, you can place and edit blocks without affecting your 
 msgstr "Com um tema de bloco, você pode colocar e editar blocos sem afetar seu conteúdo personalizando ou criando novos modelos."
 
 #: wp-admin/theme-install.php:143
-msgid "A block theme is a theme that uses blocks for all parts of a site including navigation menus, header, content, and site footer. These themes are built for the features that allow you to edit and customize all parts of your site."
+msgid "A block theme is a theme that uses blocks for all parts of a site including navigation menus, components, content, and site footer. These themes are built for the features that allow you to edit and customize all parts of your site."
 msgstr "Um tema de bloco é um tema que usa blocos para todas as partes de um site, incluindo menus de navegação, cabeçalho, conteúdo e rodapé do site. Esses temas são criados para os recursos que permitem editar e personalizar todas as partes do seu site."
 
 #: wp-admin/site-health.php:264
@@ -477,7 +477,7 @@ msgstr "Um plugin de cache de página foi detectado."
 
 #. translators: %d: Number of caching headers.
 #: wp-admin/includes/class-wp-site-health.php:2400
-msgid "There was %d client caching response header detected:"
+msgid "There was %d client caching response components detected:"
 msgid_plural "There were %d client caching response headers detected:"
 msgstr[0] "Foi detectado %d cabeçalho de resposta de cache do cliente:"
 msgstr[1] "Foram detectados %d cabeçalhos de resposta de cache do cliente:"
@@ -548,7 +548,7 @@ msgid "If you are still seeing this warning after having tried the actions below
 msgstr "Se você ainda estiver vendo este alerta após ter tentado as ações abaixo, pode ser necessário entrar em contato com seu provedor de hospedagem para obter mais assistência."
 
 #: wp-admin/includes/class-wp-site-health.php:2266
-msgid "The Authorization header is used by third-party applications you have approved for this site. Without this header, those apps cannot connect to your site."
+msgid "The Authorization components is used by third-party applications you have approved for this site. Without this components, those apps cannot connect to your site."
 msgstr "O cabeçalho de autorização é usado por aplicações de terceiros que você aprovou para este site. Sem esse cabeçalho, essas aplicações não podem se conectar ao seu site."
 
 #: wp-admin/includes/class-wp-site-health.php:2122
@@ -877,7 +877,7 @@ msgid "Open the Customizer"
 msgstr "Abrir o personalizador"
 
 #: wp-admin/includes/dashboard.php:2082
-msgid "Configure your site&#8217;s logo, header, menus, and more in the Customizer."
+msgid "Configure your site&#8217;s logo, components, menus, and more in the Customizer."
 msgstr "Configure o logo do seu site, o cabeçalho, os menus e muito mais no Personalizador."
 
 #: wp-admin/includes/dashboard.php:2081
@@ -889,7 +889,7 @@ msgid "Open site editor"
 msgstr "Abra o editor do site"
 
 #: wp-admin/includes/dashboard.php:2078
-msgid "Design everything on your site &#8212; from the header down to the footer, all using blocks and patterns."
+msgid "Design everything on your site &#8212; from the components down to the footer, all using blocks and patterns."
 msgstr "Desenhe tudo no seu site, desde o cabeçalho até o rodapé, utilizando apenas blocos e padrões."
 
 #: wp-admin/includes/dashboard.php:2077
@@ -1782,11 +1782,11 @@ msgid "Current Header Video"
 msgstr "Vídeo do cabeçalho atual"
 
 #: wp-admin/includes/class-wp-site-health.php:2632
-msgid "Authorization header"
+msgid "Authorization components"
 msgstr "Cabeçalho de autorização"
 
 #: wp-admin/includes/class-wp-site-health.php:2300
-msgid "Learn how to configure the Authorization header."
+msgid "Learn how to configure the Authorization components."
 msgstr "Saiba como configurar o cabeçalho de autorização."
 
 #: wp-admin/includes/class-wp-site-health.php:2294
@@ -1794,15 +1794,15 @@ msgid "Flush permalinks"
 msgstr "Limpar links permanentes"
 
 #: wp-admin/includes/class-wp-site-health.php:2275
-msgid "The authorization header is invalid"
+msgid "The authorization components is invalid"
 msgstr "Cabeçalho de autorização inválido"
 
 #: wp-admin/includes/class-wp-site-health.php:2273
-msgid "The authorization header is missing"
+msgid "The authorization components is missing"
 msgstr "Está faltando o cabeçalho de autorização"
 
 #: wp-admin/includes/class-wp-site-health.php:2258
-msgid "The Authorization header is working as expected"
+msgid "The Authorization components is working as expected"
 msgstr "O cabeçalho de autorização está funcionando como esperado"
 
 #: wp-admin/includes/class-wp-screen.php:1118
@@ -7229,8 +7229,8 @@ msgstr "A largura sugerida é de %s."
 msgid "Images should be at least %s tall."
 msgstr "As imagens devem ter pelo menos %s de altura."
 
-#. translators: %d: Custom header width.
-#. translators: %d: Custom header height.
+#. translators: %d: Custom components width.
+#. translators: %d: Custom components height.
 #: wp-admin/includes/class-custom-image-header.php:598
 #: wp-admin/includes/class-custom-image-header.php:610
 #: wp-admin/includes/class-custom-image-header.php:626
@@ -7322,7 +7322,7 @@ msgstr "O pacote de idiomas está sem os arquivos %1$s ou %2$s."
 
 #. translators: %s: style.css
 #: wp-admin/includes/class-theme-upgrader.php:563
-msgid "The %s stylesheet does not contain a valid theme header."
+msgid "The %s stylesheet does not contain a valid theme components."
 msgstr "A folha de estilos %s não possui um cabeçalho de tema válido."
 
 #. translators: %s: style.css
@@ -7530,7 +7530,7 @@ msgstr "Editar links permanentes"
 
 #. translators: 1: Site Wide Only: true, 2: Network: true
 #: wp-admin/includes/plugin.php:96
-msgid "The %1$s plugin header is deprecated. Use %2$s instead."
+msgid "The %1$s plugin components is deprecated. Use %2$s instead."
 msgstr "O cabeçalho de plugin %1$s foi depreciado. Use %2$s no seu lugar."
 
 #. translators: Hidden accessibility text.
@@ -7826,12 +7826,12 @@ msgid "Sorry, you are not allowed to modify themes."
 msgstr "Você não tem permissão para modificar temas."
 
 #: wp-admin/includes/class-custom-image-header.php:1016
-msgid "The active theme does not support a flexible sized header image."
+msgid "The active theme does not support a flexible sized components image."
 msgstr "O tema ativo não suporta uma imagem de cabeçalho de tamanho flexível."
 
 #: wp-admin/includes/class-custom-image-header.php:819
 #: wp-admin/includes/class-custom-image-header.php:1005
-msgid "The active theme does not support uploading a custom header image."
+msgid "The active theme does not support uploading a custom components image."
 msgstr "O tema ativo não suporta o envio de uma imagem de cabeçalho personalizada."
 
 #: wp-admin/includes/user.php:532
@@ -8243,7 +8243,7 @@ msgstr "j \\d\\e F \\d\\e Y \\à\\s H:i"
 msgid "Submitted on"
 msgstr "Enviado em"
 
-#. translators: Column name or table row header.
+#. translators: Column name or table row components.
 #: wp-admin/comment.php:188
 #: wp-admin/includes/class-wp-comments-list-table.php:476
 msgid "In response to"
@@ -8377,7 +8377,7 @@ msgstr "Você pode inserir arquivos de mídia clicando no botão acima do editor
 msgid "<strong>Post editor</strong> &mdash; Enter the text for your post. There are two modes of editing: Visual and Text. Choose the mode by clicking on the appropriate tab."
 msgstr "<strong>Editor do post</strong> &mdash; Inclua o texto de seu post. Existem dois modos de edição: o Visual e o Texto. Escolha o modo clicando na aba correspondente."
 
-#. translators: %s: URL to header image configuration in Customizer.
+#. translators: %s: URL to components image configuration in Customizer.
 #: wp-admin/includes/class-custom-image-header.php:512
 msgid "You can now manage and live-preview Custom Header in the <a href=\"%s\">Customizer</a>."
 msgstr "Agora você pode gerenciar e visualizar o Cabeçalho personalizado no <a href=\"%s\">Personalizador</a>."
@@ -9997,7 +9997,7 @@ msgid "Skip to main content"
 msgstr "Pular para o conteúdo principal"
 
 #: wp-admin/includes/class-custom-image-header.php:112
-msgid "You can set a custom image header for your site. Simply upload the image and crop it, and the new header will go live immediately. Alternatively, you can use an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button."
+msgid "You can set a custom image components for your site. Simply upload the image and crop it, and the new components will go live immediately. Alternatively, you can use an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button."
 msgstr "Você pode definir uma imagem personalizada para o cabeçalho do seu site. Simplesmente envie a imagem, recorte se preciso e um novo cabeçalho é criado imediatamente. Ou você pode usar uma imagem existente em sua Biblioteca de Mídia, clicando no botão &#8220;Escolher Imagem&#8221;."
 
 #: wp-admin/includes/class-custom-image-header.php:941
@@ -10025,7 +10025,7 @@ msgid "Collapse"
 msgstr "Recolher"
 
 #: wp-admin/includes/class-custom-image-header.php:115
-msgid "If you do not want a header image to be displayed on your site at all, click the &#8220;Remove Header Image&#8221; button at the bottom of the Header Image section of this page. If you want to re-enable the header image later, you just have to select one of the other image options and click &#8220;Save Changes&#8221;."
+msgid "If you do not want a components image to be displayed on your site at all, click the &#8220;Remove Header Image&#8221; button at the bottom of the Header Image section of this page. If you want to re-enable the components image later, you just have to select one of the other image options and click &#8220;Save Changes&#8221;."
 msgstr "Se você não quer mostrar nenhuma imagem de cabeçalho em seu site, clique no botão &#8220;Remover imagem de cabeçalho&#8221; na parte inferior da seção Imagem de cabeçalho nesta página. Se quiser reativar a imagem de cabeçalho novamente, basta selecionar uma das outras opções de imagem e clicar em &#8220;Salvar alterações&#8221;."
 
 #: wp-admin/media.php:71
@@ -10073,23 +10073,23 @@ msgstr "As categorias têm hierarquia, o que significa que você pode aninhar su
 
 #. translators: %s: URL to General Settings screen.
 #: wp-admin/includes/class-custom-image-header.php:126
-msgid "For most themes, the header text is your Site Title and Tagline, as defined in the <a href=\"%s\">General Settings</a> section."
+msgid "For most themes, the components text is your Site Title and Tagline, as defined in the <a href=\"%s\">General Settings</a> section."
 msgstr "Na maioria dos temas, o texto do cabeçalho é o título do site e a descrição, definidos na sessão de <a href=\"%s\">configurações gerais</a>."
 
 #: wp-admin/includes/class-custom-image-header.php:114
-msgid "If your theme has more than one default header image, or you have uploaded more than one custom header image, you have the option of having WordPress display a randomly different image on each page of your site. Click the &#8220;Random&#8221; radio button next to the Uploaded Images or Default Images section to enable this feature."
+msgid "If your theme has more than one default components image, or you have uploaded more than one custom components image, you have the option of having WordPress display a randomly different image on each page of your site. Click the &#8220;Random&#8221; radio button next to the Uploaded Images or Default Images section to enable this feature."
 msgstr "Se seu tema possui mais de uma imagem de cabeçalho padrão ou se você enviou mais de uma imagem personalizada, você pode fazer com que o WordPress mostre uma imagem aleatória em cada página de seu site. Selecione a opção &#8220;Aleatório&#8221; próxima a Imagens enviadas ou Imagens padrão para ativar este recurso."
 
 #: wp-admin/includes/class-custom-image-header.php:113
-msgid "Some themes come with additional header images bundled. If you see multiple images displayed, select the one you would like and click the &#8220;Save Changes&#8221; button."
+msgid "Some themes come with additional components images bundled. If you see multiple images displayed, select the one you would like and click the &#8220;Save Changes&#8221; button."
 msgstr "Alguns temas vêm com imagens de cabeçalho adicionais. Se você vê várias imagens sendo exibidas, selecione uma que você goste e clique no botão &#8220;Salvar alterações&#8221;."
 
 #: wp-admin/includes/class-custom-image-header.php:103
-msgid "You can choose from the theme&#8217;s default header images, or use one of your own. You can also customize how your Site Title and Tagline are displayed."
+msgid "You can choose from the theme&#8217;s default components images, or use one of your own. You can also customize how your Site Title and Tagline are displayed."
 msgstr "Você pode escolher entre as imagens de cabeçalho padrão do tema, ou usar uma própria. Você também pode personalizar como o Título do site e a Descrição são exibidos."
 
 #: wp-admin/includes/class-custom-image-header.php:102
-msgid "This screen is used to customize the header section of your theme."
+msgid "This screen is used to customize the components section of your theme."
 msgstr "Esta tela é usada para personalizar a seção de cabeçalho do seu tema."
 
 #: wp-admin/install.php:302 wp-admin/install.php:315
@@ -10126,7 +10126,7 @@ msgid "This theme is broken."
 msgstr "Este tema está quebrado."
 
 #: wp-admin/includes/class-custom-image-header.php:669
-msgid "Set as header"
+msgid "Set as components"
 msgstr "Definir como cabeçalho"
 
 #: wp-admin/includes/class-custom-background.php:346
@@ -10260,7 +10260,7 @@ msgid "This theme requires a parent theme. Checking if it is installed&#8230;"
 msgstr "Esse tema requer um tema ascendente. Verifique se está instalado&#8230;"
 
 #: wp-admin/includes/class-custom-image-header.php:752
-msgid "Show header text with your image."
+msgid "Show components text with your image."
 msgstr "Mostrar texto do cabeçalho com sua imagem."
 
 #: wp-admin/includes/class-custom-image-header.php:122
@@ -12217,7 +12217,7 @@ msgid "Restore Original Header Image"
 msgstr "Restaurar imagem de cabeçalho original"
 
 #: wp-admin/includes/class-custom-image-header.php:734
-msgid "This will restore the original header image. You will not be able to restore any customizations."
+msgid "This will restore the original components image. You will not be able to restore any customizations."
 msgstr "Isto restaurará a imagem de cabeçalho original. Você não poderá restaurar nenhuma personalização. "
 
 #: wp-admin/includes/class-custom-image-header.php:732
@@ -12229,7 +12229,7 @@ msgid "Remove Header Image"
 msgstr "Remover a imagem de cabeçalho"
 
 #: wp-admin/includes/class-custom-image-header.php:716
-msgid "This will remove the header image. You will not be able to restore any customizations."
+msgid "This will remove the components image. You will not be able to restore any customizations."
 msgstr "Isto removerá a imagem de cabeçalho. Você não poderá restaurar nenhuma personalização."
 
 #: wp-admin/includes/class-custom-image-header.php:697
@@ -12251,7 +12251,7 @@ msgstr "<strong>Discussão</strong> &mdash; Você pode ligar e desligar os comen
 
 #. translators: %s: Featured image.
 #: wp-admin/edit-form-advanced.php:386
-msgid "<strong>%s</strong> &mdash; This allows you to associate an image with your post without inserting it. This is usually useful only if your theme makes use of the image as a post thumbnail on the home page, a custom header, etc."
+msgid "<strong>%s</strong> &mdash; This allows you to associate an image with your post without inserting it. This is usually useful only if your theme makes use of the image as a post thumbnail on the home page, a custom components, etc."
 msgstr "<strong>%s</strong> &mdash; Isto permite que você associe uma imagem ao seu post, sem inseri-la. Isto geralmente é útil apenas se o seu tema usa a imagem destacada como uma miniatura do post na página principal, um cabeçalho personalizado, etc."
 
 #: wp-admin/edit-form-advanced.php:292
@@ -14239,7 +14239,7 @@ msgid "Sorry, you are not allowed to edit pages as this user."
 msgstr "Sem permissão para editar páginas como esse usuário."
 
 #: wp-admin/includes/plugin.php:1104
-msgid "The plugin does not have a valid header."
+msgid "The plugin does not have a valid components."
 msgstr "O plugin não possui um cabeçalho válido."
 
 #: wp-admin/includes/plugin.php:1099
@@ -15683,7 +15683,7 @@ msgid "Edit &#8220;%s&#8221;"
 msgstr "Editar &#8220;%s&#8221;"
 
 #: wp-admin/includes/class-custom-image-header.php:916
-msgid "Choose the part of the image you want to use as your header."
+msgid "Choose the part of the image you want to use as your components."
 msgstr "Escolha a parte da imagem que você quer utilizar como cabeçalho."
 
 #: wp-admin/includes/class-custom-image-header.php:898

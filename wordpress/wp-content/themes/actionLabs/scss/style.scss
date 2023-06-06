@@ -1,0 +1,117 @@
+@import 'components/header', 'pages/single-page', 'components/footer', 'pages/index', 'pages/about-us', 'variaveis' ;
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+*{
+
+  margin: 0 !important;
+}
+
+
+
+body{
+
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin:auto 0 !important;
+  padding: 0;
+  background-color: $fundo;
+
+}
+
+.container{
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px;
+  gap: 20px;
+  max-width: 1200px;
+  align-items: center;
+
+
+
+  @media  screen and (max-width: 1024px) {
+
+    max-width: 900px;
+    margin: 0 auto;
+
+  }
+
+  @media  screen and (max-width: 768px) {
+
+    max-width: 650px;
+    margin: 0 auto;
+
+  }
+
+  @media  screen and (max-width: 425px) {
+
+    max-width: 300px;
+  }
+
+
+  @media  screen and (max-width: 320px) {
+
+    max-width: 200px;
+
+  }
+
+}
+
+main{
+
+  margin: auto;
+  width: 100%;
+  max-width: 1920px;
+  align-self: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+li{
+
+  list-style: none;
+  margin: 0;
+}
+
+ul{
+
+  margin: 0;
+}
+
+a{
+
+  text-decoration: none;
+}
+
+img{
+
+  width:100%;
+}
+
+.btnSimples{
+
+  font-size: $fs_30;
+  color: $azul-escuro;
+  background-color: $branco;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  align-items: center;
+  padding: 15px 45px;
+  border-radius: 5px;
+  color: white;
+  font-weight:bold ;
+
+  &:hover{
+
+    background-color: $branco;
+    transition-delay: .3s;
+  }
+}
+

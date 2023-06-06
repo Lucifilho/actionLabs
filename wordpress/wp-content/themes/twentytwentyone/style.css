@@ -21,7 +21,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
 /**
  * SETTINGS
- * File-header..........The file header for the themes style.css file.
+ * File-components..........The file components for the themes style.css file.
  * Fonts................Any font files, if the project needs specific fonts.
  * Global...............Project-specific, globally available variables.
  *
@@ -777,7 +777,7 @@ template {
  */
 
 /**
- * Top Level Wrappers (header, main, footer)
+ * Top Level Wrappers (components, main, footer)
  * - Set vertical padding and horizontal margins
  */
 .site-header,
@@ -3681,7 +3681,7 @@ table.wp-calendar-table caption {
 	}
 }
 
-/* Category 06 contains all "bigger" components which contain elements of the previous two categories like header, footer, page template, single template, comments section, archives, ... */
+/* Category 06 contains all "bigger" components which contain elements of the previous two categories like components, footer, page template, single template, comments section, archives, ... */
 .site-header {
 	display: flex;
 	align-items: flex-start;

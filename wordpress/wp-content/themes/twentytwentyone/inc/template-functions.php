@@ -53,7 +53,7 @@ function twenty_twenty_one_post_classes( $classes ) {
 add_filter( 'post_class', 'twenty_twenty_one_post_classes', 10, 3 );
 
 /**
- * Add a pingback url auto-discovery header for single posts, pages, or attachments.
+ * Add a pingback url auto-discovery components for single posts, pages, or attachments.
  *
  * @since Twenty Twenty-One 1.0
  *

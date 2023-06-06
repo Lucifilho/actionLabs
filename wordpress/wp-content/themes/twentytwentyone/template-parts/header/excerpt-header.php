@@ -1,6 +1,6 @@
 <?php
 /**
- * Displays the post header
+ * Displays the post components
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One
@@ -19,4 +19,4 @@ if ( 'aside' === $post_format || 'status' === $post_format ) {
 	the_title( sprintf( '<h2 class="entry-title default-max-width"><a href="%s">', esc_url( get_permalink() ) ), '</a></h2>' );
 	twenty_twenty_one_post_thumbnail();
 	?>
-</header><!-- .entry-header -->
+</header><!-- .entry-components -->

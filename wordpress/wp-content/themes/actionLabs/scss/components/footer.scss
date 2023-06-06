@@ -1,0 +1,49 @@
+@import "../variaveis";
+
+footer{
+
+  background-color: $azul-claro;
+  width: 100%;
+  padding: 24px 0;
+  display: flex;
+  justify-content: center;
+
+  .rodape{
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    color: $branco;
+    width: 100%;
+    max-width: 1200px;
+
+    .logo{
+
+      align-self: flex-start;
+
+
+      .logoArea{
+
+        border: 1px solid $branco;
+        border-radius: 5px;
+        color: $branco;
+        padding: 5px 8px;
+      }
+    }
+
+    .bar{
+
+      width: 100%;
+      background-color: white;
+      height: 1px;
+    }
+
+    .copy{
+
+      align-self: flex-end;
+
+    }
+  }
+}

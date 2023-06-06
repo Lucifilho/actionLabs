@@ -1,0 +1,55 @@
+@import "../variaveis";
+
+header{
+
+  background-color: $azul-claro;
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+
+
+  .cabecalho{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+
+    .logo{
+
+      .logoArea{
+
+        border: 1px solid $branco;
+        border-radius: 5px;
+        color: $branco;
+        padding: 5px 8px;
+      }
+    }
+
+    .menu{
+
+      padding: 0;
+
+      .menu-item{
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: $fs_12;
+        line-height: 20px;
+        color: $branco;
+      }
+
+      .btnAboutUs{
+
+        color: $azul-escuro;
+        background-color: $branco;
+        padding: 4px 8px;
+        border-radius: 10px;
+
+      }
+    }
+
+  }
+}

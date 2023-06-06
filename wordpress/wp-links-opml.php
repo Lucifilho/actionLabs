@@ -36,7 +36,7 @@ echo '<?xml version="1.0"?' . ">\n";
 		<dateCreated><?php echo gmdate( 'D, d M Y H:i:s' ); ?> GMT</dateCreated>
 		<?php
 		/**
-		 * Fires in the OPML header.
+		 * Fires in the OPML components.
 		 *
 		 * @since 3.0.0
 		 */

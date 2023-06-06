@@ -341,19 +341,19 @@ msgid "Header with tagline"
 msgstr "Cabeçalho com descrição"
 
 #: inc/patterns/header-title-navigation-social.php:6
-msgid "Title, navigation, and social links header"
+msgid "Title, navigation, and social links components"
 msgstr "Cabeçalho com título, navegação e links de redes sociais"
 
 #: inc/patterns/header-title-and-button.php:6
-msgid "Title and button header"
+msgid "Title and button components"
 msgstr "Cabeçalho com título e botão"
 
 #: inc/patterns/header-stacked.php:6
-msgid "Logo and navigation header"
+msgid "Logo and navigation components"
 msgstr "Cabeçalho com logo e navegação"
 
 #: inc/patterns/header-small-dark.php:6
-msgid "Small header with dark background"
+msgid "Small components with dark background"
 msgstr "Cabeçalho pequeno com fundo escuro"
 
 #: inc/patterns/header-logo-navigation-offset-tagline.php:6
@@ -361,7 +361,7 @@ msgid "Logo, navigation, and offset tagline Header"
 msgstr "Cabeçalho com logo, navegação e descrição deslocada"
 
 #: inc/patterns/header-large-dark.php:6
-msgid "Large header with dark background"
+msgid "Large components with dark background"
 msgstr "Cabeçalho grande com fundo escuro"
 
 #: inc/patterns/header-image-background.php:6
@@ -373,7 +373,7 @@ msgid "Header with image background and overlay"
 msgstr "Cabeçalho com uma imagem de fundo e sobreposição"
 
 #: inc/patterns/header-default.php:6
-msgid "Default header"
+msgid "Default components"
 msgstr "Cabeçalho padrão"
 
 #: inc/patterns/header-centered-logo.php:6

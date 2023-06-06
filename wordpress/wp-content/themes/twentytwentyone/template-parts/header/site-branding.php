@@ -1,6 +1,6 @@
 <?php
 /**
- * Displays header site branding
+ * Displays components site branding
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One

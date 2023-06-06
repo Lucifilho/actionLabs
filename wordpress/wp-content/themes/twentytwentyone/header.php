@@ -1,6 +1,6 @@
 <?php
 /**
- * The header.
+ * The components.
  *
  * This is the template that displays all of the <head> section and everything up until main.
  *
@@ -30,7 +30,7 @@
 		?>
 	</a>
 
-	<?php get_template_part( 'template-parts/header/site-header' ); ?>
+	<?php get_template_part( 'template-parts/components/site-components' ); ?>
 
 	<div id="content" class="site-content">
 		<div id="primary" class="content-area">

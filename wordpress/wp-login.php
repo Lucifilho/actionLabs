@@ -23,7 +23,7 @@ if ( force_ssl_admin() && ! is_ssl() ) {
 }
 
 /**
- * Output the login page header.
+ * Output the login page components.
  *
  * @since 2.1.0
  *
@@ -35,7 +35,7 @@ if ( force_ssl_admin() && ! is_ssl() ) {
  *
  * @param string   $title    Optional. WordPress login Page title to display in the `<title>` element.
  *                           Default 'Log In'.
- * @param string   $message  Optional. Message to display in header. Default empty.
+ * @param string   $message  Optional. Message to display in components. Default empty.
  * @param WP_Error $wp_error Optional. The error to pass. Default is a WP_Error instance.
  */
 function login_header( $title = 'Log In', $message = '', $wp_error = null ) {
@@ -114,7 +114,7 @@ function login_header( $title = 'Log In', $message = '', $wp_error = null ) {
 	do_action( 'login_enqueue_scripts' );
 
 	/**
-	 * Fires in the login page header after scripts are enqueued.
+	 * Fires in the login page components after scripts are enqueued.
 	 *
 	 * @since 2.1.0
 	 */
@@ -123,23 +123,23 @@ function login_header( $title = 'Log In', $message = '', $wp_error = null ) {
 	$login_header_url = __( 'https://wordpress.org/' );
 
 	/**
-	 * Filters link URL of the header logo above login form.
+	 * Filters link URL of the components logo above login form.
 	 *
 	 * @since 2.1.0
 	 *
-	 * @param string $login_header_url Login header logo URL.
+	 * @param string $login_header_url Login components logo URL.
 	 */
 	$login_header_url = apply_filters( 'login_headerurl', $login_header_url );
 
 	$login_header_title = '';
 
 	/**
-	 * Filters the title attribute of the header logo above login form.
+	 * Filters the title attribute of the components logo above login form.
 	 *
 	 * @since 2.1.0
 	 * @deprecated 5.2.0 Use {@see 'login_headertext'} instead.
 	 *
-	 * @param string $login_header_title Login header logo title attribute.
+	 * @param string $login_header_title Login components logo title attribute.
 	 */
 	$login_header_title = apply_filters_deprecated(
 		'login_headertitle',
@@ -152,11 +152,11 @@ function login_header( $title = 'Log In', $message = '', $wp_error = null ) {
 	$login_header_text = empty( $login_header_title ) ? __( 'Powered by WordPress' ) : $login_header_title;
 
 	/**
-	 * Filters the link text of the header logo above the login form.
+	 * Filters the link text of the components logo above the login form.
 	 *
 	 * @since 5.2.0
 	 *
-	 * @param string $login_header_text The login header logo link text.
+	 * @param string $login_header_text The login components logo link text.
 	 */
 	$login_header_text = apply_filters( 'login_headertext', $login_header_text );
 
@@ -198,7 +198,7 @@ function login_header( $title = 'Log In', $message = '', $wp_error = null ) {
 	</script>
 	<?php
 	/**
-	 * Fires in the login page header after the body tag is opened.
+	 * Fires in the login page components after the body tag is opened.
 	 *
 	 * @since 4.6.0
 	 */

@@ -531,7 +531,7 @@ msgid "Untitled post %d"
 msgstr "Post sem título %d"
 
 #: wp-includes/block-patterns.php:156
-msgid "A variety of header designs displaying your site title and navigation."
+msgid "A variety of components designs displaying your site title and navigation."
 msgstr "Uma variedade de designs de cabeçalho exibindo o título e a navegação do site."
 
 #: wp-includes/block-patterns.php:149
@@ -1005,7 +1005,7 @@ msgstr "Biografia do autor do post"
 
 #: wp-includes/blocks/home-link/block.json
 msgctxt "block description"
-msgid "Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header."
+msgid "Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the components."
 msgstr "Crie um link que sempre aponta para a página inicial do site. Normalmente não é necessário se já houver um link do título do site presente no cabeçalho."
 
 #: wp-includes/blocks/home-link/block.json
@@ -1437,7 +1437,7 @@ msgstr "Descrição do termo"
 
 #: wp-includes/blocks/template-part/block.json
 msgctxt "block description"
-msgid "Edit the different global regions of your site, like the header, footer, sidebar, or create your own."
+msgid "Edit the different global regions of your site, like the components, footer, sidebar, or create your own."
 msgstr "Edite as diferentes regiões globais do seu site, como cabeçalho, rodapé, barra lateral ou crie uma nova região."
 
 #: wp-includes/blocks/template-part/block.json
@@ -1683,7 +1683,7 @@ msgid "The URL to process."
 msgstr "O URL a ser processado."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:943
-msgid "Where the template part is intended for use (header, footer, etc.)"
+msgid "Where the template part is intended for use (components, footer, etc.)"
 msgstr "Onde a parte do modelo se destina a uso (cabeçalho, rodapé etc.)"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:934
@@ -5425,7 +5425,7 @@ msgid "The URI of the theme's webpage, transformed for display."
 msgstr "A URI do site do tema, transformado para exibição."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:563
-msgid "The URI of the theme's webpage, as found in the theme header."
+msgid "The URI of the theme's webpage, as found in the theme components."
 msgstr "O URI do site do tema, como descrito no cabeçalho do tema."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:558
@@ -5441,7 +5441,7 @@ msgid "The theme tags, transformed for display."
 msgstr "Tags do tema, formatadas para exibição."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:534
-msgid "The theme tags, as found in the theme header."
+msgid "The theme tags, as found in the theme components."
 msgstr "Tags do tema, como encontradas no cabeçalho."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:529
@@ -5465,7 +5465,7 @@ msgid "The theme name, transformed for display."
 msgstr "Nome do tema, formatado para exibição."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:503
-msgid "The theme name, as found in the theme header."
+msgid "The theme name, as found in the theme components."
 msgstr "Nome do tema, como encontrado no cabeçalho."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:498
@@ -5477,7 +5477,7 @@ msgid "The theme description, transformed for display."
 msgstr "Descrição do tema, formatado para exibição."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:488
-msgid "The theme description, as found in the theme header."
+msgid "The theme description, as found in the theme components."
 msgstr "Descrição do tema, como encontrada no cabeçalho."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:483
@@ -5489,7 +5489,7 @@ msgid "The website of the theme author, transformed for display."
 msgstr "O site do autor do tema, formatado para exibição."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:471
-msgid "The website of the theme author, as found in the theme header."
+msgid "The website of the theme author, as found in the theme components."
 msgstr "O site do autor do tema, como encontrado no cabeçalho."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:466
@@ -5501,7 +5501,7 @@ msgid "HTML for the theme author, transformed for display."
 msgstr "HTML para o autor do tema, transformado para exibição."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:456
-msgid "The theme author's name, as found in the theme header."
+msgid "The theme author's name, as found in the theme components."
 msgstr "O nome do autor do tema, encontrado no cabeçalho do tema."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:451
@@ -5984,7 +5984,7 @@ msgid "Custom background if defined by the theme."
 msgstr "Plano de fundo personalizado, se definido pelo tema."
 
 #: wp-includes/theme.php:3932
-msgid "Custom header if defined by the theme."
+msgid "Custom components if defined by the theme."
 msgstr "Cabeçalho personalizado, se definido pelo tema."
 
 #: wp-includes/theme.php:3841
@@ -8468,17 +8468,17 @@ msgstr "Selecionar áudio"
 
 #. translators: %s: Header height in pixels.
 #: wp-includes/customize/class-wp-customize-header-image-control.php:232
-msgid "Click &#8220;Add new image&#8221; to upload an image file from your computer. Your theme works best with an image with a header height of %s pixels &#8212; you&#8217;ll be able to crop your image once you upload it for a perfect fit."
+msgid "Click &#8220;Add new image&#8221; to upload an image file from your computer. Your theme works best with an image with a components height of %s pixels &#8212; you&#8217;ll be able to crop your image once you upload it for a perfect fit."
 msgstr "Clique em &#8220;Adicionar nova imagem&#8221; para enviar uma imagem a partir de seu computador. Para seu tema o ideal é uma imagem de cabeçalho com %s píxeis de altura. Você poderá recortá-la depois que enviar para que ela se encaixe perfeitamente."
 
 #. translators: %s: Header width in pixels.
 #: wp-includes/customize/class-wp-customize-header-image-control.php:226
-msgid "Click &#8220;Add new image&#8221; to upload an image file from your computer. Your theme works best with an image with a header width of %s pixels &#8212; you&#8217;ll be able to crop your image once you upload it for a perfect fit."
+msgid "Click &#8220;Add new image&#8221; to upload an image file from your computer. Your theme works best with an image with a components width of %s pixels &#8212; you&#8217;ll be able to crop your image once you upload it for a perfect fit."
 msgstr "Clique em &#8220;Adicionar nova imagem&#8221; para enviar uma imagem a partir de seu computador. Para seu tema o ideal é uma imagem de cabeçalho com %s píxeis de largura. Você poderá recortá-la depois que enviar para que ela se encaixe perfeitamente."
 
 #. translators: %s: Header size in pixels.
 #: wp-includes/customize/class-wp-customize-header-image-control.php:220
-msgid "Click &#8220;Add new image&#8221; to upload an image file from your computer. Your theme works best with an image with a header size of %s pixels &#8212; you&#8217;ll be able to crop your image once you upload it for a perfect fit."
+msgid "Click &#8220;Add new image&#8221; to upload an image file from your computer. Your theme works best with an image with a components size of %s pixels &#8212; you&#8217;ll be able to crop your image once you upload it for a perfect fit."
 msgstr "Clique em &#8220;Adicionar nova imagem&#8221; para enviar uma imagem a partir de seu computador. Para seu tema o ideal é uma imagem de cabeçalho com %s píxeis de tamanho. Você poderá recortá-la depois que enviar para que ela se encaixe perfeitamente."
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:216
@@ -8541,7 +8541,7 @@ msgstr "O uso de níveis de usuário foi descontinuado. Use capacidades em seu l
 
 #. translators: %s: Template.
 #: wp-includes/class-wp-theme.php:339
-msgid "The theme defines itself as its parent theme. Please check the %s header."
+msgid "The theme defines itself as its parent theme. Please check the %s components."
 msgstr "O tema define ele mesmo como seu tema ascendente. Confira o valor de %s no cabeçalho."
 
 #: wp-includes/class-wp-editor.php:191 wp-includes/class-wp-editor.php:1389
@@ -10884,11 +10884,11 @@ msgstr "Post"
 
 #. translators: 1: .mp4, 2: .mov
 #: wp-includes/class-wp-customize-manager.php:6084
-msgid "Only %1$s or %2$s files may be used for header video. Please convert your video file and try again, or, upload your video to YouTube and link it with the option below."
+msgid "Only %1$s or %2$s files may be used for components video. Please convert your video file and try again, or, upload your video to YouTube and link it with the option below."
 msgstr "Apenas arquivos %1$s ou %2$s devem ser utilizados como vídeo de cabeçalho. Converta seu arquivo de vídeo e tente novamente, ou envie o vídeo para o YouTube e anexe-o com a opção abaixo."
 
 #: wp-includes/class-wp-customize-manager.php:6076
-msgid "This video file is too large to use as a header video. Try a shorter video or optimize the compression settings and re-upload a file that is less than 8MB. Or, upload your video to YouTube and link it with the option below."
+msgid "This video file is too large to use as a components video. Try a shorter video or optimize the compression settings and re-upload a file that is less than 8MB. Or, upload your video to YouTube and link it with the option below."
 msgstr "O arquivo de vídeo é muito grande para ser utilizado como vídeo de cabeçalho. Tente um vídeo menor ou otimize as configurações de compressão e envie novamente com um arquivo que seja menor que 8MB, ou envie o vídeo para o YouTube e anexe-o com a opção abaixo."
 
 #: wp-includes/class-wp-customize-manager.php:6035
@@ -11519,7 +11519,7 @@ msgstr "Aprovado"
 #. Template, 5: style.css
 #: wp-includes/class-wp-theme.php:372
 #: wp-admin/includes/class-theme-upgrader.php:585
-msgid "Template is missing. Standalone themes need to have a %1$s or %2$s template file. <a href=\"%3$s\">Child themes</a> need to have a %4$s header in the %5$s stylesheet."
+msgid "Template is missing. Standalone themes need to have a %1$s or %2$s template file. <a href=\"%3$s\">Child themes</a> need to have a %4$s components in the %5$s stylesheet."
 msgstr "Modelo faltando. Temas autônomos precisam ter um arquivo de modelo %1$s ou %2$s. <a href=\"%3$s\">Temas filhos</a> precisam ter um cabeçalho %4$s na folha de estilos %5$s."
 
 #: wp-includes/class-wp-metadata-lazyloader.php:78
@@ -12288,7 +12288,7 @@ msgid "Add new image"
 msgstr "Adicionar nova imagem"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:250
-msgid "Add new header image"
+msgid "Add new components image"
 msgstr "Adicionar nova imagem de cabeçalho"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:249
@@ -12296,7 +12296,7 @@ msgid "Hide image"
 msgstr "Ocultar imagem"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:249
-msgid "Hide header image"
+msgid "Hide components image"
 msgstr "Ocultar imagem do cabeçalho"
 
 #: wp-includes/class-wp-customize-manager.php:5192
@@ -13750,7 +13750,7 @@ msgid "Body"
 msgstr "Corpo"
 
 #: wp-includes/class-wp-editor.php:1308
-msgctxt "table header"
+msgctxt "table components"
 msgid "Header"
 msgstr "Cabeçalho"
 
@@ -14370,7 +14370,7 @@ msgid "Previously uploaded"
 msgstr "Enviado anteriormente"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:241
-msgid "Current header"
+msgid "Current components"
 msgstr "Cabeçalho atual"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:180

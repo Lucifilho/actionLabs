@@ -1,6 +1,6 @@
 <?php
 /**
- * Displays the post header
+ * Displays the post components
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One
