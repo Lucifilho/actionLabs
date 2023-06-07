@@ -15,6 +15,14 @@
 </head>
 <body>
 
+<?php
+
+    $fundo = get_the_post_thumbnail_url() ;
+
+
+
+?>
+
 <header>
 
     <div class="cabecalho">
@@ -43,7 +51,40 @@
         </div>
     </div>
 
+
+
 </header>
 
 <main>
+
+<div class="featuredImage" style="background-image: url('<?= $fundo ?>')">
+
+
+        <div class="destaque">
+
+            <div class="texto">
+
+                <h1>
+                    <?php
+
+                    if (is_front_page()){
+
+                        $titulo = the_title();
+
+                    }else{
+                        $titulo = "";
+
+                    }
+                    ?>
+
+                </h1>
+
+            </div>
+
+
+        </div>
+
+
+
+</div>
 

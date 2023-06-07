@@ -2,7 +2,9 @@
 
 /* template name: About us */
 
-get_header(); ?>
+get_header();
+
+?>
 
     <div class="AboutUsPage">
 
@@ -10,12 +12,9 @@ get_header(); ?>
 
             <div class="conteudo">
 
-
                 <?php the_content(); ?>
 
             </div>
-
-
 
         </div>
 
