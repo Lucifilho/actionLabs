@@ -5,6 +5,18 @@
   max-width: 1200px;
   width: 100%;
 
+  @media  screen and (max-width: 1024px) {
+
+    max-width: 800px;
+
+  }
+
+  @media  screen and (max-width: 768px) {
+
+    display: flex;
+    justify-content: center;
+  }
+
   .container{
 
     padding: 50px 0;
@@ -15,7 +27,7 @@
 
       width: 100%;
       max-width: 872px;
-      text-align: left;
+      text-align: justify;
       color: $cinza;
       display: flex;
       flex-direction: column;
@@ -23,32 +35,41 @@
 
       h1{
 
-        font-family: 'Avenir';
+        font-family: 'Sen', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: $fs_64;
         color: $azul-escuro;
+
+        @media  screen and (max-width: 425px) {
+
+          font-size: $fs_35;
+        }
       }
 
       h2{
 
-        font-family: 'Avenir';
+        font-family: 'Sen', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: $fs_40;
         line-height: 130%;
+
+        @media  screen and (max-width: 425px) {
+
+          font-size: $fs_24;
+        }
       }
 
       p{
 
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: $fs_18;
         line-height: 28px;
 
       }
-
     }
   }
 }

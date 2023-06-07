@@ -19,7 +19,7 @@ if ( ! class_exists( 'Services_JSON' ) ) :
  * This package provides a simple encoder and decoder for JSON notation. It
  * is intended for use with client-side JavaScript applications that make
  * use of HTTPRequest to perform server communication functions - data can
- * be encoded into JSON notation for use in a client-side javaScript, or
+ * be encoded into JSON notation for use in a client-side js, or
  * decoded from incoming JavaScript requests. JSON format is native to
  * JavaScript, and can be directly eval()'ed with no further parsing
  * overhead

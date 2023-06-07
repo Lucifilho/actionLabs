@@ -1,0 +1,155 @@
+@import "../variaveis";
+
+.postPage{
+
+  width: 100%;
+
+  @media  screen and (max-width: 1024px) {
+
+    display: flex;
+    justify-content: center;
+  }
+
+
+    .singlePost{
+
+      position: relative;
+      bottom: 250px;
+      width: 100%;
+      max-width: 700px;
+      background-color: $branco;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      color: $cinza;
+
+      @media  screen and (max-width: 1024px) {
+
+        max-width: 500px;
+
+      }
+
+      @media  screen and (max-width: 425px) {
+
+        max-width: 250px;
+
+      }
+
+
+      img{
+
+        width: 100%;
+        max-width: 700px;
+        border-radius: 0;
+      }
+
+      .textos{
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        max-width: 700px;
+
+        .category{
+
+
+
+          .post-categories{
+
+            padding: 0;
+
+            li a{
+
+              font-family: 'Sen', sans-serif;
+              padding: 4px 12px;
+              border-radius: 10px;
+              color: $branco;
+              font-style: normal;
+              font-weight: 400;
+              font-size: $fs_12;
+              line-height: 16px;
+              background-color: $azul-escuro;
+            }
+
+          }
+        }
+
+        .dataTag{
+
+          font-family: 'Sen', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: $fs_14;
+          line-height: 19px;
+          color: $cinza;
+          display: flex;
+          gap: 22px;
+
+          @media  screen and (max-width: 768px) {
+
+            font-size: $fs_12;
+
+          }
+
+          @media  screen and (max-width: 425px) {
+
+            flex-direction: column;
+          }
+
+          a{
+
+            color: $cinza;
+          }
+
+
+        }
+
+        .title{
+
+          font-family: 'Sen', sans-serif;
+          font-style: normal;
+          font-weight: 800;
+          font-size: $fs_40;
+          line-height: 130%;
+
+          @media  screen and (max-width: 425px) {
+
+            font-size: $fs_24;
+          }
+        }
+
+        .autor{
+
+          font-family: 'Sen', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: $fs_14;
+          line-height: 19px;
+
+          text-transform: capitalize;
+
+        }
+
+        .conteudo{
+
+          font-family: 'Roboto', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: $fs_18;
+          line-height: 28px;
+          text-align: justify;
+
+
+          @media  screen and (max-width: 425px) {
+
+            font-size: $fs_14;
+          }
+        }
+      }
+
+
+    }
+
+}
